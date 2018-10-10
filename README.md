@@ -1,0 +1,2 @@
+# atom-config
+Atom setup
