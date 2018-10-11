@@ -1,0 +1,36 @@
+"*":
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "*.pyc"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "resonance-ui"
+      "resonance-syntax"
+    ]
+  "docblock-python":
+    raises: true
+  editor:
+    fontSize: 16
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "5ff5e1c8-b7ec-403e-855b-b354fd46e59e"
+  fonts:
+    fontFamily: "FiraCode"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
